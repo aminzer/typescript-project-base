@@ -1,1 +1,3 @@
-export { default } from './get_greeting_message';
+import getGreetingMessage from './get_greeting_message';
+
+export default getGreetingMessage;
