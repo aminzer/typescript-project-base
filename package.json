@@ -25,7 +25,7 @@
     "build:watch": "npm run build -- --watch",
     "clean": "rimraf dist",
     "husky:prepare": "husky install",
-    "lint": "eslint src/**/*.ts test/**/*.ts",
+    "lint": "eslint src/**/*.ts",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "run-s husky:prepare rebuild",
     "rebuild": "run-s clean build",
