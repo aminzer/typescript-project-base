@@ -1,4 +1,4 @@
-import getGreetingMessage from '../../dist';
+import getGreetingMessage from './get_greeting_message';
 
 describe('getGreetingMessage', () => {
   it('returns personal greeting', () => {
