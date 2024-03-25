@@ -1,10 +1,12 @@
 {
   "extends": [
     "airbnb-base",
-    "airbnb-typescript/base"
+    "airbnb-typescript/base",
+    "prettier"
   ],
   "plugins": [
-    "jest"
+    "jest",
+    "prettier"
   ],
   "env": {
     "node": true,
@@ -19,6 +21,7 @@
     "jest.config.js"
   ],
   "rules": {
-    "linebreak-style": "off"
+    "linebreak-style": "off",
+    "prettier/prettier": "error"
   }
 }

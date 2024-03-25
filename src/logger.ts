@@ -1,4 +1,1 @@
-export const {
-  log,
-  error: logError,
-} = console;
+export const { log, error: logError } = console;
