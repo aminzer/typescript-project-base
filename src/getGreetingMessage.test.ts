@@ -1,4 +1,4 @@
-import getGreetingMessage from './get_greeting_message';
+import getGreetingMessage from './getGreetingMessage';
 
 describe('getGreetingMessage', () => {
   it('returns personal greeting', () => {
